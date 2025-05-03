@@ -5,7 +5,7 @@ import pandas as pd
 
 # تعریف پارامترهای جستجو
 keywords = ["werkstudent", "data"]
-locations = ["Stuttgart", "Braunschweig"]
+locations = ["Hannover", "Braunschweig"]
 
 # لینک‌های اصلی برای LinkedIn و Indeed
 linkedin_urls = [f"https://www.linkedin.com/jobs/search/?keywords={'%20'.join(keywords)}&location={location}" for location in locations]
